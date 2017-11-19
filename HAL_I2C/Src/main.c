@@ -62,8 +62,8 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-#define ADDR_DEV_Write  0xA0
-#define ADDR_DEV_Read   0xA1
+#define ADDR_DEV_Write  0x90
+#define ADDR_DEV_Read   0x91
 uint8_t i2cBuff[10] = {0xAA};
 
 /* USER CODE END PV */
